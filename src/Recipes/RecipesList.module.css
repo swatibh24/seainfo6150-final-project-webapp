@@ -1,0 +1,16 @@
+
+
+.grid_style {
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-gap:20px;
+}
+
+.ListContainer {
+    grid-template-columns: auto auto auto;
+    padding: 3rem 0;
+    padding-left: 0;
+    display: grid;
+  }
+  
+

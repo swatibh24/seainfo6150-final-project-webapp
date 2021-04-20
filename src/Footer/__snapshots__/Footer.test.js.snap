@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register tests renders correctly 1`] = `
+<div>
+  <div
+    class="footer"
+  >
+    <img
+      alt="recipes logo"
+      class="logo"
+      src="http://shoppopbox.com/wp-content/uploads/2017/09/homechef-logo-square-1.jpg"
+    />
+    <p
+      class="text"
+    >
+       ©
+      2021
+       Home Made Recipes by Swati Bhojwani.
+    </p>
+  </div>
+</div>
+`;

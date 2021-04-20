@@ -1,0 +1,75 @@
+.Contact_part p {
+    padding: 1px;
+    margin-left: 20%;
+    background-color: #F5F5F5;
+    font-size:20px;
+    border:1px,solid,#F5F5F5;
+    width:60%;
+    height:auto;
+    text-align: left;
+
+  }
+.contactContainer {
+    max-width: 60rem;
+    min-width: 20em;
+    margin: auto;
+    padding: 1px;
+    background-color:#F5F5F5;
+    font-size:20px;
+    width:80%;
+    height:auto;
+  }
+
+  .method{
+    padding: 1px;
+    margin-left: 20%;
+    font-size:20px;
+    width:60%;
+    height:auto;
+    text-align: left;
+    margin-bottom:20px;
+  }
+
+  .desc{
+    color:rgba(0,0,0,.6);
+    text-align:center;
+  }
+
+
+  .title {
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align:center;
+  }
+   .text{
+      font-family: Tahoma, Geneva, sans-serif;
+      text-align:center;
+      color:#5d80cc;
+      font-size:20px;
+    }
+
+  .subtitle{
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.5em;
+      text-transform: uppercase;
+      letter-spacing: .2em;
+      max-width: 275px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+     .logo{
+        width: 20%;
+        border-radius: 50%;
+        object-fit: cover;
+        display:block;
+        margin:0 auto;
+      }
+
+
+  
+  
+

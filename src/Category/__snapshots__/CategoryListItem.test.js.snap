@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CategoryItem component correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="ListContainer"
+      href=""
+    >
+      <img
+        class="catRecipeImg"
+      />
+      <div
+        class="catRecipe"
+      >
+        <p
+          class="catRecipeName"
+        />
+        <p
+          class="catRecipeDescription"
+        />
+      </div>
+    </a>
+  </div>
+</div>
+`;

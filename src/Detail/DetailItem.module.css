@@ -1,0 +1,181 @@
+.recipeContainer {
+    max-width: 60rem;
+    min-width: 20em;
+    margin: auto;
+    padding: 1px;
+    background-color:#F5F5F5;
+    font-size:20px;
+    width:80%;
+    height:auto;
+    }
+  
+    .Recipe_part {
+      margin-top:50px;
+      margin-bottom:50px;
+    }
+
+     .linkBox{
+          margin-bottom:20px;
+        }
+  
+    .Recipe_part img {
+      width: 60%;
+      float:inherit;
+      margin-left: 20%;
+      height:auto;
+    
+    }
+ .recipesBackLink {
+          text-decoration: none;
+          color: black;
+          font-family: Futura, Arial, sans-serif;
+  }
+  
+    .Recipe_part p {
+      padding: 1px;
+      margin-left: 20%;
+      background-color: #F5F5F5;
+      font-size:15px;
+      border:1px,solid,#F5F5F5;
+      width:60%;
+      height:auto;
+      text-align: left;
+    
+    }
+    
+    .recipeImg {
+      margin-bottom: 30px;
+      border-radius: 10px;
+    }
+    
+    .recipeName {
+      margin-bottom: 30px;
+      font-weight: bold;
+      font-family: Tahoma;
+      text-align:center;
+    }
+    
+    .recipeTitle {
+      font-weight: bold;
+      font-family: Verdana;
+      text-align:center;
+    }
+    
+    .recipeIngredients {
+      margin-bottom: 30px;
+      font-family: Verdana, Helvetica, sans-serif;
+      text-align:left;
+    }
+  
+    .recipeDescription{
+      font-family:sans-serif;
+      font-style: italic;
+      font-size:15px;
+      color:gray;
+    }
+    
+    .recipeDetail {
+      font-family: Verdana, Helvetica, sans-serif;
+      text-align:left;
+    }
+    
+    .catBackLink {
+      text-decoration: none;
+      color: rgb(49, 105, 228);
+      text-align: left;
+      font-family: Futura, Arial, sans-serif;
+    }
+  .box{
+      width: 100%;
+      height: 30px;
+      display: grid;
+      flex-flow: column-reverse;
+      justify-content: space-around;
+      align-items: stretch;
+      grid-template-columns: repeat(2, 30fr);
+  }
+    .recipeBackLink {
+          text-decoration: none;
+          color: rgb(49, 105, 228);
+          text-align: right;
+          font-family: Futura, Arial, sans-serif;
+        }
+    @media screen and (min-width: 400px) {
+      .recipeImg {
+        width: 400px;
+      }
+      .recipeName {
+        font-size: 20px;
+      }
+      
+      .recipeBackLink,
+      .catBackLink{
+        font-size: 9px;
+      }
+
+      .recipeTitle{
+        font-size:15px;
+      }
+      .recipeDetail,
+      .recipeIngredients {
+        font-size: 12px;
+      }
+    }
+  
+    @media screen and (min-width: 600px) {
+      .recipeImg {
+        width: 400px;
+      }
+      .recipeName {
+        font-size: 20px;
+      }
+      
+      .recipeBackLink,
+      .catBackLink {
+        font-size: 13px;
+      }
+
+      .recipeTitle{
+        font-size:15px;
+      }
+      .recipeDetail,
+      .recipeIngredients {
+        font-size: 12px;
+      }
+    }
+    
+    @media screen and (min-width: 900px) {
+      .recipeImg {
+        width: 500px;
+      }
+      .recipeName {
+        font-size: 22px;
+      }
+      .recipeTitle,
+      .recipeBackLink,
+      .catBackLink {
+        font-size: 18px;
+      }
+      .recipeDetail,
+      .recipeIngredients {
+        font-size: 14px;
+      }
+    }
+    
+    @media screen and (min-width: 1200px) {
+      .recipeImg {
+        width: 600px;
+      }
+      .recipeName {
+        font-size: 25px;
+      }
+      .recipeTitle,
+      .recipeBackLink,
+      .catBackLink {
+        font-size: 20px;
+      }
+      .recipeDetail,
+      .recipeIngredients {
+        font-size: 15px;
+      }
+    }

@@ -1,0 +1,55 @@
+body{
+  background-color: rgb(200 207 211);
+  margin:0;
+}
+
+.homeContainer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.homeImg {
+  width: 100%;
+  margin-bottom: 30px;
+  border-color: white;
+  background-color: white;
+}
+
+.homeTitle {
+  font-weight: bold;
+  font-family: Tahoma, Geneva, sans-serif;
+  color:darkred;
+}
+
+.homeText {
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+  .homeTitle {
+    font-size: 20px;
+  }
+  .homeText {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .homeTitle {
+    font-size: 22px;
+  }
+  .homeText {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .homeTitle {
+    font-size: 25px;
+  }
+  .homeText {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact tests renders correctly 1`] = `
+<div>
+  <section
+    class="contactContainer"
+  >
+    <div
+      class="Contact_part"
+    >
+      <h2
+        class="title"
+      >
+        Contact Us
+      </h2>
+      <h3
+        class="text"
+      >
+        Need Help? Get it now.
+      </h3>
+      <div
+        class="method"
+      >
+        <div>
+          <img
+            alt="logo"
+            class="logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSSNwCOUh9OiIFJHTPGAaQcDzMJlS065XtEg&usqp=CAU"
+          />
+        </div>
+        <h2
+          class="subtitle"
+        >
+          By Phone
+        </h2>
+        <div
+          class="desc"
+        >
+          <small>
+            (Monday to Friday, 9am to 6pm PST)
+          </small>
+          <br />
+          North America Toll-Free:
+          <br />
+          1-111-111-1000
+          <br />
+          International:
+          <br />
+          1-222-000-2222
+          <br />
+        </div>
+      </div>
+      <div
+        class="method"
+      >
+        <div>
+          <img
+            alt="logo"
+            class="logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlX_7Iy5v4hGWd5RqxrxxBkTAwurwK9pC98A&usqp=CAU"
+          />
+        </div>
+        <h2
+          class="subtitle"
+        >
+          Live Chat
+        </h2>
+        <div
+          class="desc"
+        >
+          Chat with a member of our in-house team.
+          <br />
+          We are online 24/7
+          <br />
+          Monday to Friday, 9am to 6pm PST
+          <br />
+        </div>
+      </div>
+      <div
+        class="method"
+      >
+        <div>
+          <img
+            alt="logo"
+            class="logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEny7-sAxtOq60-jkos31mmaBoSl9mmlZQ&usqp=CAU"
+          />
+        </div>
+        <h2
+          class="subtitle"
+        >
+          By Email
+        </h2>
+        <div
+          class="desc"
+        >
+          Send us email at myhomerecipes@northeastern.com
+          <br />
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

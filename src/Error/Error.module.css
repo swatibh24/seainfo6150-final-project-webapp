@@ -1,0 +1,55 @@
+.errorMessage {
+    max-width: 60em;
+    min-width: 20em;
+    margin: auto;
+    text-align: center;
+    border:black;
+  }
+
+ .error p {
+    margin-bottom: 50px;
+    font-family: Verdana, Helvetica, sans-serif;
+  }
+  
+  .error img {
+    margin-bottom: 30px;
+    width: 100%;
+    border-color: white;
+    background-color: white;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .error img {
+      width: 400px;
+    }
+    .error h2 {
+      font-size: 15px;
+    }
+    .error p {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .error img {
+      width: 600px;
+    }
+    .error h2 {
+      font-size: 18px;
+    }
+    .error p {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .error img {
+      width: 800px;
+    }
+    .error h2 {
+      font-size: 20px;
+    }
+    .error p {
+      font-size: 15px;
+    }
+  }

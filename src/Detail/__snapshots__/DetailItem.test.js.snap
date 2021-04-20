@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the DetailItem component correctly 1`] = `
+<div>
+  <div
+    class="recipeContainer"
+  >
+    <div
+      class="Recipe_part"
+    >
+      <img
+        class="recipeImg"
+      />
+      <h1
+        class="recipeName"
+      />
+      <p
+        class="recipeDescription"
+      />
+      <h2
+        class="recipeTitle"
+      >
+        Ingredients
+      </h2>
+      <p
+        class="recipeIngredients"
+      />
+      <h2
+        class="recipeTitle"
+      >
+        Cooking Directions
+      </h2>
+      <p
+        class="recipeDetail"
+      />
+      <p
+        class="recipeDetail"
+      />
+      <p
+        class="box"
+      >
+        <a
+          class="catBackLink"
+          href=""
+        >
+          &lt; Back to 
+           Page
+        </a>
+        <a
+          class="recipeBackLink"
+          href="/recipes"
+        >
+          Back to All Recipes Page &gt;
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;

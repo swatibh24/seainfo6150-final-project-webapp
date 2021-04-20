@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Login component correctly 1`] = `
+<div>
+  <div>
+    <form
+      class="contentBox"
+    >
+      <div
+        class="logoBox"
+      >
+        <img
+          class="logo"
+          src="http://shoppopbox.com/wp-content/uploads/2017/09/homechef-logo-square-1.jpg"
+        />
+      </div>
+      <h1
+        class="loginTitle"
+      >
+        Login
+      </h1>
+      <div
+        class="usernameBox"
+      >
+        <input
+          class="input"
+          id="username"
+          name="username"
+          placeholder="Please Enter Username"
+          required=""
+          type="text"
+        />
+      </div>
+      <div
+        class="passwordBox"
+      >
+        <input
+          class="input"
+          id="password"
+          name="password"
+          placeholder="Please Enter Password"
+          required=""
+          type="password"
+        />
+      </div>
+      <div
+        class="grid"
+      >
+        <a
+          class="signUp"
+          href="/register"
+        >
+          SignUp
+        </a>
+        <input
+          class="login"
+          type="submit"
+          value="Login"
+        />
+      </div>
+    </form>
+  </div>
+</div>
+`;

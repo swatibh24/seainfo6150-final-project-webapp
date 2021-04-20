@@ -1,0 +1,111 @@
+.containerBox{
+    position: relative;
+    z-index: 1;
+    max-width: 380px;
+    max-height: 800px;
+    margin: 100px auto;
+    display: block;
+    width: 50%;
+    padding: 40px 30px 10px 30px;
+    background-image: linear-gradient(to right, #06719b, #5d80cc);
+}
+
+.logo{
+    border-radius: 25%;
+    width: 50px;
+    height: 50px;
+    display:block;
+    margin:0 auto;
+  }
+.logoBox{
+    text-align:center;
+}
+
+.registerTitle{
+    color:white;
+    text-align:center;
+}
+.checkBox{
+margin-bottom:20px;
+}
+.input{
+    border-radius: 50px !important;
+    padding: 12px 15px 12px 15px !important;
+    width: 100%;
+    box-sizing: border-box;
+    border: none !important;
+    border: 1px solid #F3E5F5 !important;
+    font-size: 12px !important;
+    color: #000 !important;
+    font-weight: 400
+}
+
+.opinput{
+    background-color: white;
+    border-radius: 50px !important;
+    padding: 12px 15px 12px 15px !important;
+    width: 100%;
+    box-sizing: border-box;
+    border: none !important;
+    border: 1px solid #F3E5F5 !important;
+    font-size: 12px !important;
+    color: #000 !important;
+    font-weight: 400
+}
+
+
+.usernameBox{
+    margin-top:20px;
+}
+.passwordBox{
+    margin-top:20px;
+}
+.emailBox{
+    margin-top:20px;
+}
+.zipcodeBox{
+    margin-top:10px;
+}
+.phoneBox{
+    margin-top:10px;
+}
+.genderBox{
+    margin-top:15px;
+}
+.ageBox{
+    margin-top:15px;
+}
+
+.alert{
+    font-weight: bold;
+    margin: 100px 37%;
+    color: orange
+}
+.welcome{
+    margin: 15% 25%;
+    font-size: 50px;
+    font-weight: bold;
+    color: grey;
+    text-align:center;
+}
+
+
+.register{
+    border-color: transparent;
+    font-size:1rem;
+    width:60%;
+    margin-left:20%;
+    cursor:pointer;
+    margin-bottom: 50px;
+    outline: none;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.4);
+    transition-timing-function: cubic-bezier(0.65,-0.25,0.25,1.95);
+    border-radius: 25px;
+}

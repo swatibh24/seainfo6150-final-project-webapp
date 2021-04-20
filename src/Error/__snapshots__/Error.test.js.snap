@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error tests renders correctly 1`] = `
+<div>
+  <div
+    class="error"
+  >
+    <section
+      class="errorMessage"
+    >
+      <p>
+        It seems that something went wrong :(
+      </p>
+      <img
+        alt="error"
+        src="https://i2.wp.com/learn.onemonth.com/wp-content/uploads/2017/08/1-10.png?w=845&ssl=1"
+      />
+    </section>
+  </div>
+</div>
+`;

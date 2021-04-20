@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    class="ListContainer"
+  >
+    <div
+      class="grid_style"
+    >
+      <div>
+        <a
+          class="ItemContainer"
+          href="/recipe/11"
+        >
+          <div>
+            <figure
+              class="recipe__fig"
+            >
+              <img
+                alt="Cream of Mushroom Soup"
+                src="https://www.budgetbytes.com/wp-content/uploads/2017/09/Creamy-Garlic-Mushroom-Soup-spoon.jpg"
+              />
+            </figure>
+          </div>
+          <div>
+            <h4
+              class="recipe__name"
+            >
+              Cream of Mushroom Soup
+            </h4>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a
+          class="ItemContainer"
+          href="/recipe/12"
+        >
+          <div>
+            <figure
+              class="recipe__fig"
+            >
+              <img
+                alt="Mexican Chicken Corn Chowder"
+                src="https://myfoodstory.com/wp-content/uploads/2017/11/Instant-Pot-Chicken-Potato-Corn-Chowder-with-Bacon-Pressure-Cooker-Recipe-2.jpg"
+              />
+            </figure>
+          </div>
+          <div>
+            <h4
+              class="recipe__name"
+            >
+              Mexican Chicken Corn Chowder
+            </h4>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,9 +1,9 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-import Home from "./Home.jsx";
+import Login from "./Login.jsx";
 import { BrowserRouter, Link } from "react-router-dom";
 
-it("renders the Home component correctly", () => {
-  const { container } = render(<BrowserRouter><Home /></BrowserRouter>);
+it("renders the Login component correctly", () => {
+  const { container } = render(<BrowserRouter><Login /></BrowserRouter>);
   expect(container).toMatchSnapshot();
 });

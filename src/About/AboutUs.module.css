@@ -1,0 +1,34 @@
+.aboutContainer {
+  max-width: 60rem;
+  min-width: 20em;
+  margin: auto;
+}
+
+.aboutImage {
+  width: 1000px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.aboutTitle {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.aboutDetail {
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+.aboutRegister {
+  margin-bottom: 50px;
+  font-size: 15px;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+.aboutRegisterButton {
+  color: Red;
+  font-weight:bold;
+}

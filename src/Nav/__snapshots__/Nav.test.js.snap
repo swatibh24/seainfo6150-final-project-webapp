@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Nav component correctly 1`] = `
+<div>
+  <nav>
+    <a
+      href="/"
+    >
+      <img
+        alt="myrecipes logo"
+        class="logo"
+        src="http://shoppopbox.com/wp-content/uploads/2017/09/homechef-logo-square-1.jpg"
+      />
+    </a>
+    <a
+      class="title"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      class="navTab"
+      href="/category"
+    >
+      All Category
+    </a>
+    <a
+      class="navTab"
+      href="/recipes"
+    >
+      All Recipes
+    </a>
+    <a
+      class="navTab"
+      href="/about"
+    >
+      About Us
+    </a>
+    <a
+      class="navTab"
+      href="/contact"
+    >
+      Contact Us
+    </a>
+    <a
+      class="login"
+      href="/login"
+    >
+      Login
+    </a>
+  </nav>
+</div>
+`;

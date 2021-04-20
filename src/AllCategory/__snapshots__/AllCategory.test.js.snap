@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the AllCategory component correctly 1`] = `
+<div>
+  <div
+    class="allCategoryContainer"
+  >
+    <h2
+      class="allCategoryDetail"
+    >
+      Pick the categories you would like to explore!
+    </h2>
+    <div
+      class="ListContainer"
+    >
+      <div
+        class="container"
+      >
+        <a
+          class="styleCategories"
+          href="/category/Soup"
+        >
+          <p
+            class="allCategoryName"
+          >
+            Soup
+          </p>
+        </a>
+        <a
+          class="styleCategories"
+          href="/category/Appetizer"
+        >
+          <p
+            class="allCategoryName"
+          >
+            Appetizer
+          </p>
+        </a>
+        <a
+          class="styleCategories"
+          href="/category/Snack"
+        >
+          <p
+            class="allCategoryName"
+          >
+            Snack
+          </p>
+        </a>
+        <a
+          class="styleCategories"
+          href="/category/Main-Course"
+        >
+          <p
+            class="allCategoryName"
+          >
+            Main Course
+          </p>
+        </a>
+        <a
+          class="styleCategories"
+          href="/category/Dessert"
+        >
+          <p
+            class="allCategoryName"
+          >
+            Dessert
+          </p>
+        </a>
+      </div>
+    </div>
+    <img
+      alt="categories"
+      class="allCategoryImg"
+      src="https://c0.wallpaperflare.com/preview/301/367/805/black-bean-close-up-cooked-cuisine.jpg"
+    />
+  </div>
+</div>
+`;
