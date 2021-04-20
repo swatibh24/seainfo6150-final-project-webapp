@@ -5,20 +5,26 @@ exports[`renders the CategoryItem component correctly 1`] = `
   <div>
     <a
       class="ListContainer"
-      href=""
+      href="/recipe/11"
     >
       <img
+        alt="Cream of Mushroom Soup"
         class="catRecipeImg"
+        src="https://www.budgetbytes.com/wp-content/uploads/2017/09/Creamy-Garlic-Mushroom-Soup-spoon.jpg"
       />
       <div
         class="catRecipe"
       >
         <p
           class="catRecipeName"
-        />
+        >
+          Cream of Mushroom Soup
+        </p>
         <p
           class="catRecipeDescription"
-        />
+        >
+          A simple type of soup where a basic roux is thinned with cream or milk and then mushrooms and/or mushroom broth are added.
+        </p>
       </div>
     </a>
   </div>

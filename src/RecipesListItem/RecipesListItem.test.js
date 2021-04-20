@@ -5,7 +5,7 @@ import { Link, BrowserRouter } from "react-router-dom";
 
 it("renders the RecipesListItem component correctly", () => {
   const recipe = {
-    "Cream of Mushroom Soup": {
+
       "categoryID": "1",
       "recipeID": "11",
       "ID":"11-Cream-of-Mushroom-soup",
@@ -20,7 +20,6 @@ it("renders the RecipesListItem component correctly", () => {
       "imageURL": "https://www.budgetbytes.com/wp-content/uploads/2017/09/Creamy-Garlic-Mushroom-Soup-spoon.jpg",
       "detailURL": "/recipe/11",
       "categoryURL": "/category/1"
-    },
   }
   const { container } = render(<BrowserRouter to="/recipe/11"><RecipesListItem recipe={recipe}/></BrowserRouter>);
   expect(container).toMatchSnapshot();

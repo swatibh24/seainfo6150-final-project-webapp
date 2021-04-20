@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Category.module.css";
-import CategoryListItem from "./CategoryListItem.jsx";
+import CategoryListItem from "../CategoryListItem/CategoryListItem.jsx";
 import PropTypes from "prop-types";
 
 

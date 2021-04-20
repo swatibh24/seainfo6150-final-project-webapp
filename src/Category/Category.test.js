@@ -4,8 +4,8 @@ import Category from "./Category.jsx";
 import { Link, BrowserRouter } from "react-router-dom";
 
 it("renders the Category component correctly", () => {
-  const recipes = {
-    "Cream of Mushroom Soup": {
+  const recipes = [
+       {
       "categoryID": "1",
       "recipeID": "11",
       "ID":"11-Cream-of-Mushroom-soup",
@@ -21,7 +21,8 @@ it("renders the Category component correctly", () => {
       "detailURL": "/recipe/11",
       "categoryURL": "/category/1"
     }
-     }
-  const { container } = render(<BrowserRouter><Category recipes={recipes} categoryID="1" categoryName="Soup"/></BrowserRouter>);
+
+     ]
+  const { container } = render(<BrowserRouter><Category recipes={recipes} categoryName="Soup"/></BrowserRouter>);
   expect(container).toMatchSnapshot();
 });

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./RecipesList.module.css";
-import RecipesListItem from "./RecipesListItem.jsx";
+import RecipesListItem from "../RecipesListItem/RecipesListItem.jsx";
 
 const RecipesList = (props) => {
   let displayContent;

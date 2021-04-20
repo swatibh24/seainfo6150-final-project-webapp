@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./DetailItem.module.css";
-import DetailItem from "./DetailItem.jsx";
+import styles from "./DetailItem/DetailItem.module.css";
 import PropTypes from "prop-types";
+import DetailItem from "../DetailItem/DetailItem.jsx";
 
 const Detail = (props) => {
   let displayContent;

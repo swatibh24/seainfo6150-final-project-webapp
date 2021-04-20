@@ -58,8 +58,7 @@ function App() {
           render={({ match }) => (
             <Category
               categoryName={match.params.categoryName}
-              categories={allCategories}
-              recipes={fetchedData}
+               recipes={fetchedData}
             />
           )}
         />
