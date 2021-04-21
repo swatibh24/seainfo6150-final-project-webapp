@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./DetailItem/DetailItem.module.css";
+import styles from "../DetailItem/DetailItem.module.css";
 import PropTypes from "prop-types";
 import DetailItem from "../DetailItem/DetailItem.jsx";
 
