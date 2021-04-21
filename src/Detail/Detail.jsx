@@ -4,6 +4,7 @@ import styles from "../DetailItem/DetailItem.module.css";
 import PropTypes from "prop-types";
 import DetailItem from "../DetailItem/DetailItem.jsx";
 
+
 const Detail = (props) => {
   let displayContent;
 
