@@ -8,6 +8,24 @@ exports[`renders the DetailItem component correctly 1`] = `
     <div
       class="Recipe_part"
     >
+      <p
+        class="box"
+      >
+        <a
+          class="catBackLink"
+          href="/category/1"
+        >
+           &lt; Back to 
+          Soup
+           Page
+        </a>
+        <a
+          class="recipeBackLink"
+          href="/recipes"
+        >
+          Back to All Recipes Page &gt;
+        </a>
+      </p>
       <img
         alt="Cream of Mushroom Soup"
         class="recipeImg"
@@ -47,24 +65,6 @@ exports[`renders the DetailItem component correctly 1`] = `
         class="recipeDetail"
       >
         Step 2: Mix flour, salt, pepper and 1 can broth until smooth; stir into mushroom mixture. Stir in remaining broth. Bring to a boil; cook and stir until thickened, about 2 minutes. Reduce heat; stir in cream. Simmer, uncovered, until flavors are blended, about 15 minutes, stirring occasionally.
-      </p>
-      <p
-        class="box"
-      >
-        <a
-          class="catBackLink"
-          href="/category/1"
-        >
-          &lt; Back to 
-          Soup
-           Page
-        </a>
-        <a
-          class="recipeBackLink"
-          href="/recipes"
-        >
-          Back to All Recipes Page &gt;
-        </a>
       </p>
     </div>
   </div>

@@ -10,6 +10,24 @@ exports[`renders the Detail component correctly 1`] = `
         <div
           class="Recipe_part"
         >
+          <p
+            class="box"
+          >
+            <a
+              class="catBackLink"
+              href="/category/1"
+            >
+               &lt; Back to 
+              Soup
+               Page
+            </a>
+            <a
+              class="recipeBackLink"
+              href="/recipes"
+            >
+              Back to All Recipes Page &gt;
+            </a>
+          </p>
           <img
             alt="Mexican Chicken Corn Chowder"
             class="recipeImg"
@@ -46,24 +64,6 @@ exports[`renders the Detail component correctly 1`] = `
           <p
             class="recipeDetail"
           />
-          <p
-            class="box"
-          >
-            <a
-              class="catBackLink"
-              href="/category/1"
-            >
-              &lt; Back to 
-              Soup
-               Page
-            </a>
-            <a
-              class="recipeBackLink"
-              href="/recipes"
-            >
-              Back to All Recipes Page &gt;
-            </a>
-          </p>
         </div>
       </div>
     </div>

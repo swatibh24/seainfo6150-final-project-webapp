@@ -62,7 +62,7 @@ exports[`Register tests renders correctly 1`] = `
         class="zipcodeBox"
       >
         <input
-          class="opinput"
+          class="opInput"
           id="zipcode"
           name="zipcode"
           placeholder="Please Enter Zip Code"
@@ -74,7 +74,7 @@ exports[`Register tests renders correctly 1`] = `
         class="phoneBox"
       >
         <input
-          class="opinput"
+          class="opInput"
           id="phone"
           name="phone"
           placeholder="Please Enter Phone Number"
