@@ -16,12 +16,6 @@
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-.aboutDetail {
-  margin-bottom: 30px;
-  font-size: 15px;
-  font-family: Verdana, Helvetica, sans-serif;
-}
-
 .aboutRegister {
   margin-bottom: 50px;
   font-size: 15px;
@@ -31,4 +25,10 @@
 .aboutRegisterButton {
   color: Red;
   font-weight:bold;
+}
+
+.aboutDetail {
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-family: Verdana, Helvetica, sans-serif;
 }
