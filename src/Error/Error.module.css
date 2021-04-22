@@ -6,17 +6,19 @@
     border:black;
   }
 
- .error p {
-    margin-bottom: 50px;
-    font-family: Verdana, Helvetica, sans-serif;
-  }
-  
-  .error img {
+.error img {
     margin-bottom: 30px;
     width: 100%;
     border-color: white;
     background-color: white;
   }
+
+ .error p {
+    margin-bottom: 50px;
+    font-family: Verdana, Helvetica, sans-serif;
+  }
+  
+
   
   @media screen and (min-width: 600px) {
     .error img {

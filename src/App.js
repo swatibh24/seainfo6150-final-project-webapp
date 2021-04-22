@@ -47,31 +47,15 @@ function App() {
       {}
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/register" exact component={Register} />
         <Route path="/login" exact component={Login} />
         <Route exact path="/recipes"><RecipesList recipes={fetchedData} /></Route>
+        <Route path="/register" exact component={Register} />
         <Route path="/category" exact component={AllCategory} />
         {}
-        <Route
-          path="/category/:categoryName"
-          exact
-          render={({ match }) => (
-            <Category
-              categoryName={match.params.categoryName}
-               recipes={fetchedData}
-            />
-          )}
-        />
-        <Route
-          path="/recipe/:recipeID"
-          exact
-          render={({ match }) => (
-           <Detail
-              recipeID={match.params.recipeID}
-              recipes={fetchedData}
-            />
-          )}
-        />
+        <Route path="/category/:categoryName" exact render={({ match }) => (
+            <Category categoryName={match.params.categoryName}  recipes={fetchedData}  /> )}/>
+        <Route path="/recipe/:recipeID"  exact render={({ match }) => (
+           <Detail  recipeID={match.params.recipeID} recipes={fetchedData}/>)}/>
         <Route path="/about" exact component={AboutUs} />
         <Route path="/contact" exact component={Contact} />
         <Route component={Error} />
@@ -79,7 +63,6 @@ function App() {
       <footer>
         <Footer/>
       </footer>
-    
     </div>
     
   );

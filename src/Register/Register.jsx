@@ -13,7 +13,7 @@ const Register = () => {
 
   return (
     <div>
-      {submittedForm ?  (<p className={styles.welcome}>Hi {submittedForm.get("username")}, Thank you for joining us!</p>) : (
+      {submittedForm ?  (<p className={styles.welcome}>Hi Welcome {submittedForm.get("username")}, Thank you for joining us!</p>) : (
           <form onSubmit={onSubmit} className={styles.containerBox}>
             <div className="logoBox">  
             <img
@@ -31,10 +31,10 @@ const Register = () => {
               <input type="email" className={styles.input} name="email" id="email" placeholder="Please Enter Email Address *" required="required"/><br/>
             </div>
             <div className={styles.zipcodeBox}>
-              <input type="number" className={styles.opinput} name="zipcode" placeholder="Please Enter Zip Code" id="zipcode"/><br/>
+              <input type="number" className={styles.opInput} name="zipcode" placeholder="Please Enter Zip Code" id="zipcode"/><br/>
             </div>
             <div className={styles.phoneBox}>
-              <input type="number" className={styles.opinput} name="phone" placeholder="Please Enter Phone Number" id="phone"/> <br/>
+              <input type="number" className={styles.opInput} name="phone" placeholder="Please Enter Phone Number" id="phone"/> <br/>
             </div>
            
             <div className={styles.genderBox}>
