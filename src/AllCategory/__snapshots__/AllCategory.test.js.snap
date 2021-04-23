@@ -3,10 +3,10 @@
 exports[`renders the AllCategory component correctly 1`] = `
 <div>
   <div
-    class="allCategoryContainer"
+    class="allCatContainer"
   >
     <h2
-      class="allCategoryDetail"
+      class="allCatDetail"
     >
       Pick the categories you would like to explore!
     </h2>
@@ -21,7 +21,7 @@ exports[`renders the AllCategory component correctly 1`] = `
           href="/category/Soup"
         >
           <p
-            class="allCategoryName"
+            class="allCategoryTypes"
           >
             Soup
           </p>
@@ -31,7 +31,7 @@ exports[`renders the AllCategory component correctly 1`] = `
           href="/category/Appetizer"
         >
           <p
-            class="allCategoryName"
+            class="allCategoryTypes"
           >
             Appetizer
           </p>
@@ -41,7 +41,7 @@ exports[`renders the AllCategory component correctly 1`] = `
           href="/category/Snack"
         >
           <p
-            class="allCategoryName"
+            class="allCategoryTypes"
           >
             Snack
           </p>
@@ -51,7 +51,7 @@ exports[`renders the AllCategory component correctly 1`] = `
           href="/category/Main-Course"
         >
           <p
-            class="allCategoryName"
+            class="allCategoryTypes"
           >
             Main Course
           </p>
@@ -61,7 +61,7 @@ exports[`renders the AllCategory component correctly 1`] = `
           href="/category/Dessert"
         >
           <p
-            class="allCategoryName"
+            class="allCategoryTypes"
           >
             Dessert
           </p>
@@ -70,7 +70,7 @@ exports[`renders the AllCategory component correctly 1`] = `
     </div>
     <img
       alt="categories"
-      class="allCategoryImg"
+      class="allCatImg"
       src="https://c0.wallpaperflare.com/preview/301/367/805/black-bean-close-up-cooked-cuisine.jpg"
     />
   </div>
