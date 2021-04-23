@@ -20,15 +20,15 @@ exports[`renders the Nav component correctly 1`] = `
     </a>
     <a
       class="navTab"
-      href="/category"
-    >
-      All Category
-    </a>
-    <a
-      class="navTab"
       href="/recipes"
     >
       All Recipes
+    </a>
+    <a
+      class="navTab"
+      href="/category"
+    >
+      All Category
     </a>
     <a
       class="navTab"
