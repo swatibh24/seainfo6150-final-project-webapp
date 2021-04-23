@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 import styles from "./CategoryListItem.module.css";
 
 const CategoryListItem = (props) => {
-  
-    const recipe=props.recipe;
+  const recipe=props.recipe;
     return (
       <div>
         <Link className={styles.ListContainer} to={recipe.detailURL}>
