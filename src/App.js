@@ -52,11 +52,10 @@ function App() {
         <Route path="/register" exact component={Register} />
         <Route path="/category" exact component={AllCategory} />
         {}
+        <Route path="/recipe/:recipeID"  exact render={({ match }) => (
+                <Detail  recipeID={match.params.recipeID} recipes={fetchedData}/>)}/>
         <Route path="/category/:categoryName" exact render={({ match }) => (
             <Category categoryName={match.params.categoryName}  recipes={fetchedData}  /> )}/>
-        <Route path="/recipe/:recipeID"  exact render={({ match }) => (
-           <Detail  recipeID={match.params.recipeID} recipes={fetchedData}/>)}/>
-        <Route path="/about" exact component={AboutUs} />
         <Route path="/contact" exact component={Contact} />
         <Route component={Error} />
       </Switch>

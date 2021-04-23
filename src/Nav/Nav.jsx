@@ -15,11 +15,11 @@ const Nav = () => {
           <Link className={styles.title} to="/">
             Home
           </Link>
+           <Link className={styles.navTab} to="/recipes">
+                      All Recipes
+           </Link>
           <Link className={styles.navTab} to="/category">
             All Category
-          </Link>
-          <Link className={styles.navTab} to="/recipes">
-            All Recipes
           </Link>
           <Link className={styles.navTab} to="/about">
             About Us
