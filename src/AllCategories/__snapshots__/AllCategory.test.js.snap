@@ -8,7 +8,7 @@ exports[`renders the AllCategory component correctly 1`] = `
     <h2
       class="allCatDetail"
     >
-      Pick the categories you would like to explore!
+      Pick the food categories you would like to explore!!!
     </h2>
     <div
       class="ListContainer"

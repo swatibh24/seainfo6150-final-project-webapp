@@ -5,7 +5,7 @@ import styles from "./AllCategory.module.css";
 const AllCategory = () => {
   return (
     <div className={styles.allCatContainer}>
-      <h2 className={styles.allCatDetail}>Pick the categories you would like to explore!
+      <h2 className={styles.allCatDetail}>Pick the food categories you would like to explore!!!
       </h2>
     <div className={styles.ListContainer}>
      <div className={styles.container}>
@@ -27,7 +27,7 @@ const AllCategory = () => {
       </div>
       </div>
          <img className={styles.allCatImg} src="https://c0.wallpaperflare.com/preview/301/367/805/black-bean-close-up-cooked-cuisine.jpg" alt="categories"/>
-    </div>
+      </div>
   );
 };
 
