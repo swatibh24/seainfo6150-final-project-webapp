@@ -4,25 +4,18 @@ import { Link } from "react-router-dom";
 import Nav from "../Nav/Nav.jsx";
 
 const Login = () => {
-
-  const [submittedForm, setSubmittedForm] = useState();
+  const [submittedFrm, setSubmittedFrm] = useState();
   function onSubmit(e) {
     e.preventDefault();
     const data = new FormData(e.target);
-    setSubmittedForm(data);
+    setSubmittedFrm(data);
   };
-
   return (
-    <div>
-      {
-        submittedForm ?
-            (<p className={styles.welcome}>Welcome back {submittedForm.get("username")}!</p>)
-        : (
+    <div>{
+        submittedFrm ?(<p className={styles.welcome}>Welcome {submittedFrm.get("username")}!</p>): (
           <form onSubmit={onSubmit} className={styles.contentBox}>
-
             <div className="logoBox">
-            <img
-              className={styles.logo} src="http://shoppopbox.com/wp-content/uploads/2017/09/homechef-logo-square-1.jpg" />
+            <img className={styles.logo} src="http://shoppopbox.com/wp-content/uploads/2017/09/homechef-logo-square-1.jpg" alt="loginpage" />
             </div>
             <h1 className={styles.loginTitle}>Login</h1>
             <div className={styles.usernameBox}>
@@ -34,7 +27,6 @@ const Login = () => {
             <div className={styles.grid}><Link to="/register" className={styles.signUp}>SignUp</Link>
             <input className={styles.login} type="submit" value="Login" />
             </div>
-
           </form>
         )
       }

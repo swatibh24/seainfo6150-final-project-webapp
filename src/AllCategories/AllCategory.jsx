@@ -26,8 +26,7 @@ const AllCategory = () => {
       </Link>
       </div>
       </div>
-         <img className={styles.allCatImg}
-         src="https://c0.wallpaperflare.com/preview/301/367/805/black-bean-close-up-cooked-cuisine.jpg" alt="categories"/>
+         <img className={styles.allCatImg} src="https://c0.wallpaperflare.com/preview/301/367/805/black-bean-close-up-cooked-cuisine.jpg" alt="categories"/>
     </div>
   );
 };

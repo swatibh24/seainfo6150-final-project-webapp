@@ -9,7 +9,7 @@ exports[`renders the RecipesListItem component correctly 1`] = `
     >
       <div>
         <figure
-          class="recipe__fig"
+          class="recipe_fig"
         >
           <img
             alt="Cream of Mushroom Soup"
@@ -19,7 +19,7 @@ exports[`renders the RecipesListItem component correctly 1`] = `
       </div>
       <div>
         <h4
-          class="recipe__name"
+          class="recipe_name"
         >
           Cream of Mushroom Soup
         </h4>

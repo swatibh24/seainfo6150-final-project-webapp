@@ -4,11 +4,9 @@ import styles from "./Category.module.css";
 import CategoryListItem from "../CategoryListItem/CategoryListItem.jsx";
 import PropTypes from "prop-types";
 
-
 const Category = (props) => {
 
-  let displayContent;
-
+ let displayContent;
   if (props.recipes.length) {
     displayContent = (
       <div className={styles.catContainer}>

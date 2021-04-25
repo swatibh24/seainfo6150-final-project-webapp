@@ -15,7 +15,7 @@ exports[`renders correctly 1`] = `
         >
           <div>
             <figure
-              class="recipe__fig"
+              class="recipe_fig"
             >
               <img
                 alt="Cream of Mushroom Soup"
@@ -25,7 +25,7 @@ exports[`renders correctly 1`] = `
           </div>
           <div>
             <h4
-              class="recipe__name"
+              class="recipe_name"
             >
               Cream of Mushroom Soup
             </h4>
@@ -39,7 +39,7 @@ exports[`renders correctly 1`] = `
         >
           <div>
             <figure
-              class="recipe__fig"
+              class="recipe_fig"
             >
               <img
                 alt="Mexican Chicken Corn Chowder"
@@ -49,7 +49,7 @@ exports[`renders correctly 1`] = `
           </div>
           <div>
             <h4
-              class="recipe__name"
+              class="recipe_name"
             >
               Mexican Chicken Corn Chowder
             </h4>

@@ -5,21 +5,18 @@ import styles from "./Nav.module.css";
 const Nav = () => {
     return(
         <nav>
-            <Link to="/">
+          <Link to="/">
             <img
-              className={styles.logo}
-              src="http://shoppopbox.com/wp-content/uploads/2017/09/homechef-logo-square-1.jpg"
-              alt="myrecipes logo"
-            />
+              className={styles.logo} src="http://shoppopbox.com/wp-content/uploads/2017/09/homechef-logo-square-1.jpg" alt="myRecipes logo"/>
           </Link>
           <Link className={styles.title} to="/">
             Home
           </Link>
            <Link className={styles.navTab} to="/recipes">
-                      All Recipes
+            All Recipes
            </Link>
           <Link className={styles.navTab} to="/category">
-            All Category
+            All Categories
           </Link>
           <Link className={styles.navTab} to="/about">
             About Us

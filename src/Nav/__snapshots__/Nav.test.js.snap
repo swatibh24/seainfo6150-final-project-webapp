@@ -7,7 +7,7 @@ exports[`renders the Nav component correctly 1`] = `
       href="/"
     >
       <img
-        alt="myrecipes logo"
+        alt="myRecipes logo"
         class="logo"
         src="http://shoppopbox.com/wp-content/uploads/2017/09/homechef-logo-square-1.jpg"
       />
@@ -28,7 +28,7 @@ exports[`renders the Nav component correctly 1`] = `
       class="navTab"
       href="/category"
     >
-      All Category
+      All Categories
     </a>
     <a
       class="navTab"

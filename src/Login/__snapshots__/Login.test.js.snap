@@ -10,6 +10,7 @@ exports[`renders the Login component correctly 1`] = `
         class="logoBox"
       >
         <img
+          alt="loginpage"
           class="logo"
           src="http://shoppopbox.com/wp-content/uploads/2017/09/homechef-logo-square-1.jpg"
         />

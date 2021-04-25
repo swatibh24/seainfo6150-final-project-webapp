@@ -7,16 +7,13 @@ const RecipesListItem = (props) => {
   return (
     <div>
         <Link className={styles.ItemContainer} to={props.recipe.detailURL}>
-      <div>
-          <figure className={styles.recipe__fig}>
-            <img src={props.recipe.imageURL} alt={props.recipe.name} />
-          </figure>
+     <div>
+          <figure className={styles.recipe_fig}><img src={props.recipe.imageURL} alt={props.recipe.name} /></figure>
       </div>
       <div>
-        <h4 className={styles.recipe__name}>{props.recipe.name}</h4>
+        <h4 className={styles.recipe_name}>{props.recipe.name}</h4>
       </div>
       </Link>
-      
     </div>
   );
 };
